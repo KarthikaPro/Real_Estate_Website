@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Real Estate</title>
+    <link rel="stylesheet" href="style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+     <!-- Font Awesome 6 CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+</head>
+<body>
+    <!-- header -->
+        <nav class="navbar">
+                <ul class="menu-item d-flex justify-content-between w-100">
+                    <li class="logo"> Real Estate </li>
+                    <li><a href="buy.html">Buy</a></li>
+                    <li><a href="rent-property">Rent</a></li>
+                    <li><a href="sell-property">Sell</a></li>
+                    <li><a href="agents">Agents</a></li>
+                    <li><a href="about-us">About</a></li>
+                    <li><a href="favorite">wishlisticon</a></li>
+                    <li><a href="profile-dashboard">prfileicon</a></li>
+                    <li class="sign-in-btn"><a href="sign-in">Sign In</a></li>
+                   
+                </ul>
+        </nav>
+    <!-- header ends here-->
+    <!-- banner -->
+     <div class="banner">
+            <h1>Find Your Dream Home</h1>
+            <p>Discover the perfect property with our comprehensive real estate platform
+            </p>    
+            <div class="search-section">
+                <ul class="d-flex justify-content-between w-25">
+                    <li>Buy</li>
+                    <li>Rent</li>
+                    <li>Sold</li>
+                </ul>
+                <form action="">
+                    <div class="d-flex justify-content-between input-fields">
+                        <div class="input-text">
+                            <label for="location">Location</label><br/>
+                            <input type="text" name="location" id="location" placeholder="Enter city,neightbourhood,or ZIP">
+                        </div>
+                        <div class="input-text">
+                            <label for="price-range">Price range</label><br/>
+                            <select name="price-range" id="price-range">
+                                <option value="">Price range</option>
+                                <option value="">20Lakhs-35Lakhs</option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </select>
+                        </div>
+                        <div class="input-text">
+                            <label for="property-type">Property-type</label><br/>
+                            <select name="property-type" id="property-type">
+                                <option value="">Property-type</option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-btn">
+                        Search Properties
+                    </div>
+                </form>
+            </div>
+        </div>
+     <!-- banner ends here -->
+    <!-- body starts here -->
+    <div class="body-container">
+      
+        
+        <div class="featured-section">
+            <h2>Featured Properties</h2>
+            <p>Handpicked properties that match your lifestyle</p>
+            <div class="property-container d-flex flex-wrap" id="property-container">
+            </div>
+        </div>
+
+        <!-- our services -->
+       
+        <div class="our-services">
+             <h1>Our Services</h1>
+            <p>Complete real estate solutions for every need</p>
+
+            <ul class="d-flex">
+                <li>
+                    <div class="icon-img d-flex justify-content-center"> <i class="fa-solid fa-house"></i></div>
+                    <h4>Buy Properties</h4>
+                    <p>Find your perfect home with our extensive property listings and expert guidance</p>
+                </li>
+                <li>
+                    <div class="icon-img d-flex justify-content-center"><i class="fa-solid fa-key"></i></div>
+                    <h4>Rent Properties</h4>
+                    <p>Discover rental properties that match your lifestyle and budget preferences</p>
+                </li>
+                <li>
+                    <div class="icon-img d-flex justify-content-center"><i class="fa-solid fa-dollar-sign"></i></div>
+                    <h4>Sell Properties</h4>
+                    <p>Get the best value for your property with our professional selling services</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="top-agents">
+             <h1>Top Agents</h1>
+            <p>Work with our experienced real estate professionals</p>
+            
+            <ul class="d-flex justify-content-between">
+                <li>
+                    <div class="icon-img"><img src="" alt=""></div>
+                    <h4>Sarah Johnson</h4>
+                    <p>Senior Agent</p>
+                    <p>150+ Properties Sold</p>
+                </li>
+                <li>
+                    <div class="icon-img"><img src="" alt=""></div>
+                    <h4>Michael Chen</h4>
+                    <p>Luxury Specialist</p>
+                    <p>200+ Properties Sold</p>
+                </li>
+                <li>
+                    <div class="icon-img"><img src="" alt=""></div>
+                    <h4>Emily Davis</h4>
+                    <p>First-Time Buyer Expert</p>
+                    <p>120+ Properties Sold</p>
+                </li>
+                 <li>
+                    <div class="icon-img"><img src="" alt=""></div>
+                    <h4>David Wilson</h4>
+                    <p>Investment Properties</p>
+                    <p>180+ Properties Sold</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+     <!-- body ends here -->
+
+     <!-- contact us starts here -->
+      <div class="section-get-started">
+        <h1>Ready to Find Your Dream Home?</h1>
+        <p>Join thousands of satisfied customers who found their perfect property with us</p>
+        <div class="d-flex justify-content-center">
+            <div class="secondary-cta-btn"><a href="">Get Started</a></div>
+            <div class="tertiary-cta-btn"><a href="">Contact Us</a></div>
+        </div>
+      </div>
+     <!-- contact us ends here -->
+
+     <!-- footer starts here -->
+      <footer>
+       <div class="footer-section d-flex justify-content-between">
+         <div class="section-1">
+            <h4>Real Estate</h4>
+            <ul>
+                <li>
+                    <p>Your trusted partner in finding the perfect property</p>
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="section-2">
+            <h4>Services</h4>
+            <ul>
+                <li><a href="">Buy Properties</a></li>
+                <li><a href="">Rent Properties</a></li>
+                <li><a href="">Sell Properties</a></li>
+                <li><a href="">Property Management</a></li>
+            </ul>
+        </div>
+        <div class="section-3">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Our Agents</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="section-4">
+            <h4>Contact Info</h4>
+            <ul>
+                <li>Phone No</li>
+                <li>Email</li>
+                <li>Address</li>
+            </ul>
+        </div>
+       </div>
+      </footer>
+      <!-- footer ends here -->
+       <script src="script_new.js"></script>
+</body>
+</html>
