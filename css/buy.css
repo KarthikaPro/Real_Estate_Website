@@ -1,0 +1,47 @@
+body{
+    max-width: 1000px;
+    margin: 0 auto !important;
+}
+
+.card {
+    display: flex !important;
+    flex-direction: row !important;
+    margin-top:var(--spacing-3);
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.image-property {
+position: relative;
+  display: inline-block;
+}
+ 
+.property-img {
+    width: 300px;
+    height: 200px;
+}
+.image-property::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+       opacity: 0.2;
+    background: linear-gradient(134deg, rgba(4, 175, 194, 1) 0%, rgba(195, 223, 227, 1) 57%, rgba(0, 212, 255, 1) 100%);
+}
+
+.card .price {
+    font-size: var(--font-size-lg);
+}
+
+.facilities li {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 12px;
+    font-size: 14px;
+}
+
+.facilities .icon {
+    margin-right:8px;
+}
